@@ -7,7 +7,7 @@
   "scripts": {
     "start:dev": "set NODE_ENV=dev&& nest start --watch",
     "prebuild": "rimraf dist",
-    "build": "nest build --watch --webpack",
+    "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start:dist": "node dist/main",
     "serverlessDeploy": "serverless deploy",
